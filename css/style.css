@@ -1,0 +1,133 @@
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+
+    letter-spacing:.1em;
+
+    color: #4c4c4c;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.top{
+    background-image: url("../image/top.jpg");
+    height: 500px;
+
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top h1{
+    text-align: center;
+    font-size: 28px;
+    font-size: 2rem;
+    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing:.5em;
+    color:#FFFFFF;
+    margin:0 auto;
+    padding-top: 250px;
+    
+}
+
+
+@media (max-width: 768px) {
+    .top{height:250px;}
+    .top h1{padding-top:125px;
+        font-size: 14px;
+    font-size: 1.4rem;
+    }
+}
+
+main{
+     margin: 0 auto;
+     background-color: #FFFFFF;
+
+}
+
+main h1{
+    
+    font-size: 28px;
+    font-size: 2.8rem;
+    text-align: center ;
+    border-bottom: dotted 3px #90D5DE;
+    margin: 0 auto;
+        padding: 30px 0 20px 0;
+    
+}
+
+main section {
+    display: flex;
+      -webkit-justify-content: space-around; 
+  justify-content:         space-around;
+}
+
+@media (max-width: 768px) {
+    main section{
+    display: block;
+  }
+}
+
+.three-box{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 40px;
+    margin:60px 20px ;
+    background-color: #fdfcf6;
+}
+
+
+
+.text-center{
+    text-align: center;
+    font-size: 90%;
+    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color:#FFFFFF;
+    padding: 20px;
+    background-color: #90D5DE;
+    
+}
+
+footer{
+        background-color: #90D5DE;
+        text-align: center ;
+        height:200px;
+        font-size: 14px;
+        font-size: 1.4rem;
+        
+}
+
+.inyou{
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+.myButton {
+	background-color:#599bb3;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:3px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:9px 33px;
+	text-decoration:none;
+	text-shadow:3px 4px 0px #3d768a;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
